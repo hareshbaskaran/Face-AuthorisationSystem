@@ -86,17 +86,12 @@
                     <td><b>ID</b></td>
                     <td><b>Time</b></td>
                 </tr>
-                {% if l %}
-
-                {% for i in range(l) %}
                 <tr>
                     <td>{{ i+1 }}</td>
                     <td>{{ names[i] }}</td>
                     <td>{{ rolls[i] }}</td>
                     <td>{{ times[i] }}</td>
                 </tr>
-                {% endfor %}
-                {% endif %}
             </table>
 
         </div>

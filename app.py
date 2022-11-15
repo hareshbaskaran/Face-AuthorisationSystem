@@ -108,7 +108,6 @@ def start():
     return render_template('home.html',names=names,rolls=rolls,times=times,l=l,totalreg=totalreg(),datetoday2=datetoday2()) 
 
 
-#### This function will run when we add a new user
 @app.route('/add',methods=['GET','POST'])
 def add():
     newusername = request.form['newusername']
